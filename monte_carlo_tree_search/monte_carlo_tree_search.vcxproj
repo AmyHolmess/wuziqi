@@ -145,6 +145,7 @@
     <ClInclude Include="Action.h" />
     <ClInclude Include="mcts.h" />
     <ClInclude Include="Score.h" />
+    <ClInclude Include="Situation.h" />
     <ClInclude Include="State.h" />
     <ClInclude Include="TreeNode.h" />
   </ItemGroup>
@@ -153,6 +154,7 @@
     <ClCompile Include="game.cpp" />
     <ClCompile Include="mcts.cpp" />
     <ClCompile Include="Score.cpp" />
+    <ClCompile Include="Situation.cpp" />
     <ClCompile Include="state.cpp" />
     <ClCompile Include="TreeNode.cpp" />
   </ItemGroup>
