@@ -3,6 +3,7 @@
 #define SITUATION_H
 #include"Action.h"
 #include<vector>
+#include <algorithm> 
 using namespace std;
 
 #define SIZE 15
@@ -37,7 +38,7 @@ public:
 
 	bool add_situation(vector<Piece>* s);
 
-	bool Sorty(const Piece& p1, const Piece& p2) { return p1.x < p2.x; }
+	bool Sortx(const Piece& p1, const Piece& p2) { return p1.x < p2.x; }
 	vector<Piece>& rotate(vector<Piece>& sit);
 private:
 	vector<vector<Piece>*>* totalSituation[100];

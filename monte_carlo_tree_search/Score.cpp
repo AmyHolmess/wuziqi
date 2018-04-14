@@ -123,9 +123,9 @@ int Score::get_score(const int* board, const Action& currentAction, int player) 
 				sum += gradeDefensive[x - 1][y];
 		else
 			if (player != player_id)
-				sum -= gradeDefensive[x - 1][y];
+				sum += gradeDefensive[x - 1][y];
 			else
-				sum -= gradeOffensive[x - 1][y];
+				sum += gradeOffensive[x - 1][y];
 	}
 	return sum;
 }
